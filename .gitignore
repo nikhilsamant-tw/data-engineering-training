@@ -1,0 +1,5 @@
+.devbox/
+.idea/
+.venv/
+**/**/__pycache__/
+.envrc
