@@ -6,7 +6,7 @@ This repository was created to provide a hands-on environment for practicing and
 ### Local setup using Devbox
 
 #### Prerequisites
-- Ensure you have [Devbox](https://www.jetify.com/devbox/docs/installation) installed on your machine.
+- Ensure you have [Devbox](https://jetify-com.vercel.app/docs/devbox/installing_devbox/) installed on your machine.
 - (Optional)Ensure you have [Direnv](https://direnv.net/#basic-installation) installed and hooked into you shell.
 
 #### Setting up the environment
