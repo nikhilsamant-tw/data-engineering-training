@@ -29,7 +29,7 @@ This repository was created to provide a hands-on environment for practicing and
 4. To activate the virtual environment, run:
     ```sh
     source .venv/bin/activate
-    pip3 install pyspark py4j
+    pip3 install pyspark py4j IPython pandas pyarrow
     ```
 
 5. You can now run your Apache Spark applications or any other scripts within this environment.
@@ -50,7 +50,7 @@ If you want to create your own Devbox setup, follow these steps:
     devbox init
     ```
 
-4. Add the required packages to your ```devbox.json``` file. For example, to add Python 3.11 and JDK 17:
+4. Add the required packages to your ```devbox.json``` file. For example, to add Python 3.11 and JDK 11:
     ```json
     {
     "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.7/.schema/devbox.schema.json",
@@ -81,7 +81,7 @@ If you want to create your own Devbox setup, follow these steps:
     ```sh
     python -m venv .venv
     source .venv/bin/activate
-    pip3 install pyspark py4j
+    pip3 install pyspark py4j IPython pandas pyarrow
     ```
 You can now install additional Python packages using pip or add more packages to your ```devbox.json``` file as needed.
 
